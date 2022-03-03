@@ -15,7 +15,7 @@
 .feature-grid {
   position: relative;
   z-index: -1;
-  //left: min(calc(1000px - 100vw) * -1, 0px);
+  // left: calc(100vw - 1000px);
   width: 55rem;
   align-self: center;
   grid-template-columns: repeat(4, 1fr);
